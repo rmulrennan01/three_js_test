@@ -15,41 +15,39 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "G-No_Name_064",
+            "name" : "Dresser",
+            "scale" : [
+                0.972152590751648,
+                1.0222222805023193,
+                1
+            ],
             "translation" : [
-                0.41243743896484375,
-                0.5635624527931213,
-                0.2852325439453125
+                -0.08234691619873047,
+                0.1777999997138977,
+                -0.2619943618774414
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material",
+            "name" : "[Color M00]",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.4000000059604645
+                "roughnessFactor" : 0.5
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "G-No_Name_064",
+            "name" : "G-No_Name_135",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "NORMAL" : 1
                     },
-                    "indices" : 3,
+                    "indices" : 2,
                     "material" : 0
                 }
             ]
@@ -59,63 +57,52 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1967,
+            "count" : 1849,
             "max" : [
-                0.45923319458961487,
-                0.2111375331878662,
-                0.7496166229248047
+                0.4691212475299835,
+                0.5839238166809082,
+                0.7305679321289062
             ],
             "min" : [
-                -0.01269999984651804,
-                -0.5651293396949768,
-                -0.7305684089660645
+                -0.016330499202013016,
+                -0.1754676252603531,
+                -0.7496175765991211
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1967,
+            "count" : 1849,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
-            "componentType" : 5126,
-            "count" : 1967,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 2760,
+            "count" : 2592,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 23604,
+            "byteLength" : 22188,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 23604,
-            "byteOffset" : 23604
+            "byteLength" : 22188,
+            "byteOffset" : 22188
         },
         {
             "buffer" : 0,
-            "byteLength" : 15736,
-            "byteOffset" : 47208
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5520,
-            "byteOffset" : 62944
+            "byteLength" : 5184,
+            "byteOffset" : 44376
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 68464,
+            "byteLength" : 49560,
             "uri" : "dresser.bin"
         }
     ]
